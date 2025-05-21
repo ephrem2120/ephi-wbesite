@@ -1,0 +1,165 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Ephrem Bzuayehu Asmamawu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="page2.html">Projects</a> |
+    <a href="page3.html">Publications</a> |
+    <a href="page4.html">Gallery</a>
+  </nav>
+  <main>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Explore my journey in energy engineering, projects, publications, and visual stories!</p>
+    <a href="cv.pdf" class="download-btn" download>📥 Download CV (PDF)</a>
+  </main>
+</body>
+</html>
+
+<!-- page2.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Ephrem Bzuayehu Asmamawu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="page2.html">Projects</a> |
+    <a href="page3.html">Publications</a> |
+    <a href="page4.html">Gallery</a>
+  </nav>
+  <main>
+    <h1>Projects</h1>
+    <p>Here are some of the innovative projects I’ve worked on:</p>
+    <ul>
+      <li><strong>Building Energy Modeling:</strong> Simulated and optimized energy usage.</li>
+      <li><strong>Solar System Design:</strong> Developed efficient residential PV systems.</li>
+      <li><strong>HVAC Research:</strong> Investigated smart HVAC savings at MANENS S.P.A.</li>
+      <li><strong>Automotive Diagnostics:</strong> Diagnosed systems with advanced tools.</li>
+    </ul>
+  </main>
+</body>
+</html>
+
+<!-- page3.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications - Ephrem Bzuayehu Asmamawu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="page2.html">Projects</a> |
+    <a href="page3.html">Publications</a> |
+    <a href="page4.html">Gallery</a>
+  </nav>
+  <main>
+    <h1>Publications</h1>
+    <p>Some of my published works include:</p>
+    <ul>
+      <li><strong>Urban Energy Optimization:</strong> Presented at the Intl. Sustainable Energy Conference.</li>
+      <li><strong>PV-HVAC Integration:</strong> Published in Renewable Energy Tech Journal.</li>
+      <li><strong>Vehicle Thermodynamics:</strong> Presented at African Engineering Symposium.</li>
+    </ul>
+  </main>
+</body>
+</html>
+
+<!-- page4.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - Ephrem Bzuayehu Asmamawu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="page2.html">Projects</a> |
+    <a href="page3.html">Publications</a> |
+    <a href="page4.html">Gallery</a>
+  </nav>
+  <main>
+    <h1>Gallery</h1>
+    <p>A few snapshots from my academic and engineering journey:</p>
+    <div class="gallery">
+      <img src="images/project1.jpg" alt="Project 1">
+      <img src="images/labwork.jpg" alt="Lab Work">
+      <img src="images/conference.jpg" alt="Conference">
+      <img src="images/solar.jpg" alt="Solar Installation">
+    </div>
+  </main>
+</body>
+</html>
+
+<!-- style.css -->
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f0f2f5;
+  color: #333;
+}
+nav {
+  background: #004080;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 2em;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 1em;
+  border-radius: 8px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.gallery img {
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+a.download-btn {
+  display: inline-block;
+  margin-top: 1em;
+  background: #004080;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  text-decoration: none;
+}
+a.download-btn:hover {
+  background: #0066cc;
+}
